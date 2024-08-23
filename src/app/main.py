@@ -9,20 +9,20 @@ st.set_page_config(page_title="Previsão de Churn da Top Bank",
 PAGE_NAMES = [
     "Home",
     "Explicação do Modelo",
-    "Análise Exploratória de Dados",
-    "Top Clients",
-    "Previsão de Churn",
-    "Simulação de Ticket",
+    #"Análise Exploratória de Dados",
+    #"Top Clients",
+    #"Previsão de Churn",
+    #"Simulação de Ticket",
     "Sobre"
 ]
 
 PAGE_FUNCTIONS = [
     home.run,
     model_explain.run,
-    eda.run,
-    top_clients.run,
-    predict.run,
-    ticket_simulation.run,
+    #eda.run,
+    #top_clients.run,
+    #predict.run,
+    #ticket_simulation.run,
     about.run
 ]
 
