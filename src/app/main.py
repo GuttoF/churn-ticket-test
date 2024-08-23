@@ -9,9 +9,9 @@ PAGES = {
     "Home": home.run,
     "Explicação do Modelo": model_explain.run,
     "Análise Exploratória de Dados": eda.run,
-    "Top Clients": top_clients.run,
-    "Previsão de Churn": predict.run,
-    "Simulação de Ticket": ticket_simulation.run,
+    #"Top Clients": top_clients.run,
+    #"Previsão de Churn": predict.run,
+    #"Simulação de Ticket": ticket_simulation.run,
     "Sobre": about.run
 }
 

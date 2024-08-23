@@ -23,3 +23,6 @@ RUN poetry config virtualenvs.create false \
 
 # FASTAPI PORT
 EXPOSE 8000
+
+# STREAMLIT PORT
+EXPOSE 8501
