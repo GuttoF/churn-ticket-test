@@ -9,5 +9,5 @@ services:
     build:
       context: .
     ports:
-      - "8501:8501"
-    command: streamlit run src/app/main.py
+      - "${PORT:-8501}:${PORT:-8501}"
+    command: sh -c "poetry run streamlit run src/app/main.py --server.port=${PORT:-8501} --server.address=0.0.0.0"
