@@ -26,3 +26,6 @@ EXPOSE 8000
 
 # STREAMLIT PORT
 EXPOSE 8501
+
+# Run the application
+CMD ["poetry", "run",  "streamlit", "run", "src/app/main.py"]
